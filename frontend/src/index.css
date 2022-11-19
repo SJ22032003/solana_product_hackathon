@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+}
+
+#navbar-item{
+  text-decoration: none;
+}
+
+#text-area{
+  width: 100%;
+  outline: none;
+  resize: none;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  padding: 1rem;
+}
+#text-area:focus{
+  border: 3px solid #5245dc;
+}
+
+#root-lgmn{
+  font-weight: 600;
+  color: #000;
+}
