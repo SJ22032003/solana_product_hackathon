@@ -4,7 +4,7 @@ import recipt from "../assets/recipt.png";
 import addGST from "../assets/addgstin.png";
 
 export const SideNavbarList = [
-  {name:"Onboard",image:addGST, link:"onboard"},
+  {name:"Onboard",image:addGST, link:"dashboard"},
   { name: "Wallet", image: account, link:'wallet' },
   { name: "Token balance", image: recipt, link:'tokenbalance' },
   { name: "NFT Metadata", image: battery , link:'nft'},

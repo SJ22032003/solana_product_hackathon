@@ -4,19 +4,17 @@ import HOC from "./components/HOC";
 import "react-notifications-component/dist/theme.css";
 import { ReactNotifications } from "react-notifications-component";
 import LandingRoute from "./routes/LandingRoute";
+import { useSelector } from "react-redux";
 
 function App() {
-  const login = false;
-
   return (
     <>
       <ReactNotifications />
       <LandingRoute />
-      {login && (
-        <HOC>
-          <MyRoutes />
-        </HOC>
-      )}
+
+      <HOC>
+        <MyRoutes />
+      </HOC>
     </>
   );
 }
